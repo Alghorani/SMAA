@@ -1,5 +1,5 @@
 /*
- * MapUtilites.java  
+ * MapUtilites.java  2019/2020
  */
 package com.neet.DiamondHunter.MapViewer;
 
