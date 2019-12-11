@@ -93,12 +93,7 @@ public class MapController implements Initializable {
 		});
 		
 		/*If user clicks image of the axe*/
-		axeImage.setOnMouseClicked(new EventHandler<MouseEvent>(){
-			@Override
-			public void handle(MouseEvent event) {
-				axeFlag = 1;		
-			}
-		});
+		
 		
 		/* If user clicks on map displayed.
 		 * 
