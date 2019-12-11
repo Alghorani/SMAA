@@ -35,9 +35,7 @@ public class Diamond extends Entity {
 		
 	}
 	
-	public void addChange(int[] i) {
-		tileChanges.add(i);
-	}
+	
 	public ArrayList<int[]> getChanges() {
 		return tileChanges;
 	}
