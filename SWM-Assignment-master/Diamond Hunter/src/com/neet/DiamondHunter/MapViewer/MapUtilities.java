@@ -75,37 +75,7 @@ public class MapUtilities {
 	 * @param testMapFile is the path of the TestMap.map file 
 	 * This class reads and stores the lines inside the files.
 	 */
-	public void loadMap(String testMapFile) {
-
-		try{
-			
-			InputStream in = getClass().getResourceAsStream(testMapFile);
-			BufferedReader br = new BufferedReader(
-						new InputStreamReader(in)
-					);
-			
-			
-			
-			numCols = Integer.parseInt(br.readLine());
-			numRows = Integer.parseInt(br.readLine());
-			maps = new int[numRows][numCols];
-			
-			String delimiters = "\\s+";
-			
-			for(int row = 0 ; row < numRows ; row++){
-				String line = br.readLine();
-				String[] tokens = line.split(delimiters);
-				
-				for(int col = 0; col < numCols; col++){
-					maps[row][col] = Integer.parseInt(tokens[col]);
-				}
-			 }
-			
-			newmaps = maps;				//For references
-		}
-		catch(Exception e){}	
-	}
-
+	
 	/**
 	 * @param gc is the graphics context of the FXML canvas objects
 	 * This method draws the map based from the position read from the tilemap 
