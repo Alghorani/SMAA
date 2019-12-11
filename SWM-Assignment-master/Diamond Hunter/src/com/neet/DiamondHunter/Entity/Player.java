@@ -185,8 +185,6 @@ public class Player extends Entity {
 	}
 	
 	// Draw Player.
-	public void draw(Graphics2D g) {
-		super.draw(g);
-	}
+
 	
 }
