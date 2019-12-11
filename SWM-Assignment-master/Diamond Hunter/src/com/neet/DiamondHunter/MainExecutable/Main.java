@@ -34,4 +34,9 @@ public class Main extends Application {
 		}
 	}
 	
+	/*Launch the User Interface */
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
 	
