@@ -32,10 +32,7 @@ public class IntroController implements Initializable {
     @FXML private AnchorPane content;
     @FXML private ImageView man;
     
-    /*
-     * This method initializes the class 
-     * Loads an image 
-     */
+ 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
     	
