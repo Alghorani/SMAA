@@ -18,12 +18,7 @@ public class Item extends Entity{
 	public static final int BOAT = 0;
 	public static final int AXE = 1;
 	
-	public Item(TileMap tm) {
-		super(tm);
-		type = -1;
-		width = height = 16;
-		cwidth = cheight = 12;
-	}
+
 	
 	public void setType(int i) {
 		type = i;
